@@ -10,14 +10,7 @@ The application uses a machine learning classification model and is developed wi
 - Simple, user-friendly interface for inputting data.
 - Provides predictions based on age, gender, and socio-economic status.
 - Entirely built using Python and Streamlit for ease of deployment and use.
-## Setup Instructions
 
-Follow these steps to run the project locally:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/survival-prediction-app.git
-   cd survival-prediction-app
 ## How to Use
 1. Launch the app.
 2. Input the following details:
