@@ -27,8 +27,8 @@ fare = st.number_input("Fare", min_value=0.0, step=0.1, value=10.0)
 embark_town = st.selectbox("Embark Town", options=["Cherbourg", "Queenstown", "Southampton"])
 
 # Encode categorical inputs
-gender_encoded = 0 if gender == "Male" else 1
-class_encoded = {"1st Class": 1, "2nd Class": 2, "3rd Class": 3}[socio_economic_status]
+gender_encoded = 1 if gender == "Male" else 0
+class_encoded = {"1st Class": 0, "2nd Class": 1, "3rd Class": 2}[socio_economic_status]
 
 # Create a DataFrame for embark town encoding
 embark_town_df = pd.DataFrame({"Cherbourg": [0], "Queenstown": [0], "Southampton": [0]})
@@ -36,7 +36,7 @@ embark_town_df.loc[0, embark_town] = 1
 
 # Combine all inputs into a single feature array
 input_features = np.array([
-    [age, gender_encoded, class_encoded, fare] + embark_town_df.values.flatten().tolist()
+    [gender_encoded, age, fare, class_encoded] + embark_town_df.values.flatten().tolist()
 ])
 
 # Predict Button
