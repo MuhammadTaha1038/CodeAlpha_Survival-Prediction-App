@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load('survival_model.pkl')
+model = joblib.load('Survival_model.pkl')
 
 # Streamlit App
 st.title("Survival Prediction App")
