@@ -80,6 +80,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 For further inquiries or collaboration, feel free to reach out:
 
 **Muhammad Taha**  
+- Email: [contact.taha2005@gmail.com](mailto:contact.taha2005@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/muhammad-taha-b88807248/)  
 - [X (formerly Twitter)](https://x.com/M_Taha093589350)  
-- Email: [contact.taha2005@gmail.com](mailto:contact.taha2005@gmail.com)
