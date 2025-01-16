@@ -4,6 +4,8 @@ This project is a web-based application that predicts the likelihood of survival
 - **Age**
 - **Gender**
 - **Socio-economic status (class)**
+- **Fare**
+- **embark-town**
 
 The application uses a machine learning classification model and is developed with Streamlit for the user interface. It is a beginner-friendly project designed to showcase the integration of data science and web application development.
 ## Features
@@ -17,6 +19,8 @@ The application uses a machine learning classification model and is developed wi
    - Age
    - Gender (Male or Female)
    - Socio-economic Status (1st Class, 2nd Class, or 3rd Class)
+   - Fare
+   - Embark-Town
 3. Click the "Predict" button to see the result.
 ## Technologies Used
 - **Python**: Core programming language.
